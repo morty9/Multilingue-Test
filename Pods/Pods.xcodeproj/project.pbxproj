@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35A57BA7CD1C55C6873530945C93C8E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		40903AEA0CEE30764733B4EE3B31C469 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		6082C258583DB3DEB5B6760619A9E78D /* Pods-Multilingue-Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D62606D5733D8DB6909D1D70540E7B /* Pods-Multilingue-Test-dummy.m */; };
+		6B363BCC2D7850B2E3DAE76FB3EC45D7 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A9B8F4813688F1BCD379616C451F00 /* Language.swift */; };
+		BB602171D165AA93BB80DD76E02B6657 /* Pods-Multilingue-Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBE710CC2B34DAD5EBBFBE2D02F7E121 /* Pods-Multilingue-Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2D5FC4CA6E7D76BA7ED761F0DD57312 /* SwitchLanguage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F58E281DE18FB63AF760EC7CCB9D640 /* SwitchLanguage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECB9C73440F80B4936EC14B6D1DAE8F7 /* SwitchLanguage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67968906D653D68A64F30795F1EAFBA3 /* SwitchLanguage-dummy.m */; };
+		FA7134C4ED4F46773E0B45BE103C0176 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AE6C4479F1C9999E4C30D910FA900FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33ECAF268E33C92C44D5FBE87F723F1B;
+			remoteInfo = SwitchLanguage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D74EAACF4E8BA747F9DACE0700D1F5D /* Pods-Multilingue-Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Multilingue-Test-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A33F38221977F74B2868209A11E16F9 /* SwitchLanguage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwitchLanguage-prefix.pch"; sourceTree = "<group>"; };
+		3F58E281DE18FB63AF760EC7CCB9D640 /* SwitchLanguage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwitchLanguage-umbrella.h"; sourceTree = "<group>"; };
+		58D62606D5733D8DB6909D1D70540E7B /* Pods-Multilingue-Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Multilingue-Test-dummy.m"; sourceTree = "<group>"; };
+		5BECA99B211B76F7DACB441CC6066186 /* Pods-Multilingue-Test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Multilingue-Test-frameworks.sh"; sourceTree = "<group>"; };
+		5D239678B3FDCE9DF4BE1952179D42A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E35F1569559A3F206D16288C4EB33DE /* Pods-Multilingue-Test-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Multilingue-Test-resources.sh"; sourceTree = "<group>"; };
+		67968906D653D68A64F30795F1EAFBA3 /* SwitchLanguage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwitchLanguage-dummy.m"; sourceTree = "<group>"; };
+		7A6710E8F6ECAD5EC3C10D4DD67D4CE0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878D211FA3A56DD0001418B57C0DDF11 /* Pods-Multilingue-Test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Multilingue-Test.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A04AC0AB0CECAAC71110F25963FB7315 /* Pods-Multilingue-Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Multilingue-Test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A542231DE97EEC8FC9049B2747B16D04 /* Pods-Multilingue-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Multilingue-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BBE710CC2B34DAD5EBBFBE2D02F7E121 /* Pods-Multilingue-Test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Multilingue-Test-umbrella.h"; sourceTree = "<group>"; };
+		C0A6721A212ADDC656374B7F81424D11 /* SwitchLanguage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwitchLanguage.framework; path = SwitchLanguage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C643A434E78F5731D645E81566872B65 /* SwitchLanguage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwitchLanguage.xcconfig; sourceTree = "<group>"; };
+		C9C478D624EE7C6112E51A7E11151157 /* Pods_Multilingue_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Multilingue_Test.framework; path = "Pods-Multilingue-Test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF94F3DBF590B7CA5B35D2932CCA5E80 /* SwitchLanguage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwitchLanguage.modulemap; sourceTree = "<group>"; };
+		D66CC6F816B0250DC61D1CEFE39E6DD3 /* Pods-Multilingue-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Multilingue-Test.release.xcconfig"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F9A9B8F4813688F1BCD379616C451F00 /* Language.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Language.swift; path = CIFramework/Language.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40365455E19DF224CFBDDD6864F5FE5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7134C4ED4F46773E0B45BE103C0176 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A3BE97598CFEBAD7F5F0D6157594C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A57BA7CD1C55C6873530945C93C8E4 /* Foundation.framework in Frameworks */,
+				40903AEA0CEE30764733B4EE3B31C469 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2027B8D38E8BFA57C454567A59D58F7E /* Pods-Multilingue-Test */ = {
+			isa = PBXGroup;
+			children = (
+				5D239678B3FDCE9DF4BE1952179D42A7 /* Info.plist */,
+				878D211FA3A56DD0001418B57C0DDF11 /* Pods-Multilingue-Test.modulemap */,
+				A04AC0AB0CECAAC71110F25963FB7315 /* Pods-Multilingue-Test-acknowledgements.markdown */,
+				2D74EAACF4E8BA747F9DACE0700D1F5D /* Pods-Multilingue-Test-acknowledgements.plist */,
+				58D62606D5733D8DB6909D1D70540E7B /* Pods-Multilingue-Test-dummy.m */,
+				5BECA99B211B76F7DACB441CC6066186 /* Pods-Multilingue-Test-frameworks.sh */,
+				5E35F1569559A3F206D16288C4EB33DE /* Pods-Multilingue-Test-resources.sh */,
+				BBE710CC2B34DAD5EBBFBE2D02F7E121 /* Pods-Multilingue-Test-umbrella.h */,
+				A542231DE97EEC8FC9049B2747B16D04 /* Pods-Multilingue-Test.debug.xcconfig */,
+				D66CC6F816B0250DC61D1CEFE39E6DD3 /* Pods-Multilingue-Test.release.xcconfig */,
+			);
+			name = "Pods-Multilingue-Test";
+			path = "Target Support Files/Pods-Multilingue-Test";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		45722D6B979B9BB22A59D07C01632869 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6ACF81B742DDE2B8A92FCDB979FC763 /* SwitchLanguage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				45722D6B979B9BB22A59D07C01632869 /* Pods */,
+				C112FECBD6F689E1C01D5BE776C25524 /* Products */,
+				A82E5371D4E4CF093249FC4361DDF62D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A6ACF81B742DDE2B8A92FCDB979FC763 /* SwitchLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				F9A9B8F4813688F1BCD379616C451F00 /* Language.swift */,
+				BE7B3A940C8E290D23AEAFED9E2EAA5F /* Support Files */,
+			);
+			name = SwitchLanguage;
+			path = SwitchLanguage;
+			sourceTree = "<group>";
+		};
+		A82E5371D4E4CF093249FC4361DDF62D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2027B8D38E8BFA57C454567A59D58F7E /* Pods-Multilingue-Test */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BE7B3A940C8E290D23AEAFED9E2EAA5F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A6710E8F6ECAD5EC3C10D4DD67D4CE0 /* Info.plist */,
+				CF94F3DBF590B7CA5B35D2932CCA5E80 /* SwitchLanguage.modulemap */,
+				C643A434E78F5731D645E81566872B65 /* SwitchLanguage.xcconfig */,
+				67968906D653D68A64F30795F1EAFBA3 /* SwitchLanguage-dummy.m */,
+				3A33F38221977F74B2868209A11E16F9 /* SwitchLanguage-prefix.pch */,
+				3F58E281DE18FB63AF760EC7CCB9D640 /* SwitchLanguage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwitchLanguage";
+			sourceTree = "<group>";
+		};
+		C112FECBD6F689E1C01D5BE776C25524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9C478D624EE7C6112E51A7E11151157 /* Pods_Multilingue_Test.framework */,
+				C0A6721A212ADDC656374B7F81424D11 /* SwitchLanguage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17A744DDBFBA7C3DDD0A910D0B1CE9BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB602171D165AA93BB80DD76E02B6657 /* Pods-Multilingue-Test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F3D52C3FE7D1A7FE00AA60702C4BB45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D5FC4CA6E7D76BA7ED761F0DD57312 /* SwitchLanguage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		33ECAF268E33C92C44D5FBE87F723F1B /* SwitchLanguage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131661E9372485ACD2DDB72E1E0A773F /* Build configuration list for PBXNativeTarget "SwitchLanguage" */;
+			buildPhases = (
+				D2B969179B65643A131F7EA7AC85AA06 /* Sources */,
+				79A3BE97598CFEBAD7F5F0D6157594C1 /* Frameworks */,
+				9F3D52C3FE7D1A7FE00AA60702C4BB45 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchLanguage;
+			productName = SwitchLanguage;
+			productReference = C0A6721A212ADDC656374B7F81424D11 /* SwitchLanguage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3C8AD9E59DF31EA153AF6E02FC32CB8 /* Pods-Multilingue-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2A0020AE358330E16876C330710DB0 /* Build configuration list for PBXNativeTarget "Pods-Multilingue-Test" */;
+			buildPhases = (
+				848DCBC784A42DDE6161F07CF5DCCFF6 /* Sources */,
+				40365455E19DF224CFBDDD6864F5FE5A /* Frameworks */,
+				17A744DDBFBA7C3DDD0A910D0B1CE9BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4523F0FF9E0CDF4EA3CAEA35A468BA24 /* PBXTargetDependency */,
+			);
+			name = "Pods-Multilingue-Test";
+			productName = "Pods-Multilingue-Test";
+			productReference = C9C478D624EE7C6112E51A7E11151157 /* Pods_Multilingue_Test.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C112FECBD6F689E1C01D5BE776C25524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3C8AD9E59DF31EA153AF6E02FC32CB8 /* Pods-Multilingue-Test */,
+				33ECAF268E33C92C44D5FBE87F723F1B /* SwitchLanguage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848DCBC784A42DDE6161F07CF5DCCFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6082C258583DB3DEB5B6760619A9E78D /* Pods-Multilingue-Test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B969179B65643A131F7EA7AC85AA06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B363BCC2D7850B2E3DAE76FB3EC45D7 /* Language.swift in Sources */,
+				ECB9C73440F80B4936EC14B6D1DAE8F7 /* SwitchLanguage-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4523F0FF9E0CDF4EA3CAEA35A468BA24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwitchLanguage;
+			target = 33ECAF268E33C92C44D5FBE87F723F1B /* SwitchLanguage */;
+			targetProxy = 9AE6C4479F1C9999E4C30D910FA900FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		592AC7A4A9A3770EE5B5A1645FEF3FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C643A434E78F5731D645E81566872B65 /* SwitchLanguage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwitchLanguage/SwitchLanguage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwitchLanguage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwitchLanguage/SwitchLanguage.modulemap";
+				PRODUCT_NAME = SwitchLanguage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B223EB0A8F350296FA28DCC1330FE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C643A434E78F5731D645E81566872B65 /* SwitchLanguage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwitchLanguage/SwitchLanguage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwitchLanguage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwitchLanguage/SwitchLanguage.modulemap";
+				PRODUCT_NAME = SwitchLanguage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		88A917CE96443D887240E3D89C42162E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D66CC6F816B0250DC61D1CEFE39E6DD3 /* Pods-Multilingue-Test.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Multilingue-Test/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Multilingue-Test/Pods-Multilingue-Test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Multilingue_Test;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC0FC0A865DDFE1A4A4BFFDA0927DF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A542231DE97EEC8FC9049B2747B16D04 /* Pods-Multilingue-Test.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Multilingue-Test/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Multilingue-Test/Pods-Multilingue-Test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Multilingue_Test;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		131661E9372485ACD2DDB72E1E0A773F /* Build configuration list for PBXNativeTarget "SwitchLanguage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B223EB0A8F350296FA28DCC1330FE1 /* Debug */,
+				592AC7A4A9A3770EE5B5A1645FEF3FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2A0020AE358330E16876C330710DB0 /* Build configuration list for PBXNativeTarget "Pods-Multilingue-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0FC0A865DDFE1A4A4BFFDA0927DF3C /* Debug */,
+				88A917CE96443D887240E3D89C42162E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

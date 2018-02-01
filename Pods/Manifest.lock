@@ -1,0 +1,12 @@
+PODS:
+  - SwitchLanguage (1.0.7)
+
+DEPENDENCIES:
+  - SwitchLanguage (= 1.0.7)
+
+SPEC CHECKSUMS:
+  SwitchLanguage: b515eec1561a3608953a1fdffd4eddb8ba509908
+
+PODFILE CHECKSUM: 87edb04e847e7d2f9e48a110e3f5fc2165ab8d61
+
+COCOAPODS: 1.4.0

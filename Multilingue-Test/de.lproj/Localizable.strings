@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Multilingue-Test
+
+  Created by Bérangère La Touche on 21/01/2018.
+  Copyright © 2018 Bérangère La Touche. All rights reserved.
+*/
+
+"Change" = "Veränderung";
+"Hello World" = "Hallo Welt";
+"Switch Language" = "Sprache wechseln";
